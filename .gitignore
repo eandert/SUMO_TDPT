@@ -4,3 +4,5 @@ src/__pycache__/input_output_parsing.cpython-37.pyc
 src/__pycache__/traffic_light_control_class.cpython-37.pyc
 *.pyc
 *.csv
+venv/*
+.idea/*

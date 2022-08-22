@@ -3,15 +3,17 @@ Test parallelization and distribution tool for use with Simulated Urban Mobility
 
 Installation:
 
-Install SUMO (newest)
+--Install SUMO (newest)
 
-Install Python 3.7 (might work with newer but untested as of yet)
+--Install Python 3.7 (might work with newer but untested as of yet)
 
 Clone the repo
 
 CD into the repo
 
 pip install -r requirements.txt
+
+-- Set up a Google IAM user if you have not already: https://cloud.google.com/iam/docs/creating-managing-service-accounts
 
 To properly set this up, you should copy this sheets file https://docs.google.com/spreadsheets/d/1RWMaz2ryNWEKpez4O7rEn8Ysy8_xvhRLkJUOKZKN3hM/edit?usp=sharing , add your IAM user as an editor, and finally add the unique file code into settings.json as the "input_file" field. 
 

@@ -9,4 +9,5 @@ CD into the repo
 pip install -r requirements.txt
 python atlas_pyqt5_interface.py
 Select number of threads (suggestion is to start with 2-4 depending on computer speed), and click "start test"
-Code will automatically connect to Google docs and use your computer as as slave to run my testsS (sorry!)
+Code will automatically connect to Google docs and use your computer as as slave to run tests to the links entered in the file... 
+To propoerly set this up, you should copy this sheets file, add your IAM user as an editor https://docs.google.com/spreadsheets/d/1RWMaz2ryNWEKpez4O7rEn8Ysy8_xvhRLkJUOKZKN3hM/edit?usp=sharing, and finally add the unique file code into filename. 

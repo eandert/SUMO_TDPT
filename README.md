@@ -15,9 +15,9 @@ pip install -r requirements.txt
 
 To properly set this up, you should copy this sheets file https://docs.google.com/spreadsheets/d/1RWMaz2ryNWEKpez4O7rEn8Ysy8_xvhRLkJUOKZKN3hM/edit?usp=sharing , add your IAM user as an editor, and finally add the unique file code into settings.json as the "input_file" field. 
 
-Next your need to copy this sheets file , add your IAM user as an editor, and the unique ID as "output_file" in the settings.json file.
+Next your need to copy this sheets file https://docs.google.com/spreadsheets/d/1Vq31R13NK41VGh8cxcdQbqVgtaChXSy9zgzSEsdrvxo/edit?usp=sharing, add your IAM user as an editor, and the unique ID as "output_file" in the settings.json file.
 
-Next your need to copy this sheets file , add your IAM user as an editor, and the unique ID as "thread_monitor" in the settings.json file.
+Next your need to copy this sheets file https://docs.google.com/spreadsheets/d/14HkluJxeqEWhP14ZKEZifmuXP1DvDyD-L9x7MaQ0dYg/edit?usp=sharing, add your IAM user as an editor, and the unique ID as "thread_monitor" in the settings.json file.
 
 Finally, type in the command 'python atlas_pyqt5_interface.py'
 

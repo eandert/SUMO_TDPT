@@ -3,26 +3,15 @@ Test parallelization and distribution tool for use with Simulated Urban Mobility
 
 Installation:
 
---Install SUMO (newest)
-
---Install Python 3.7 (might work with newer but untested as of yet)
-
-Clone the repo
-
-CD into the repo
-
-pip install -r requirements.txt
-
--- Set up a Google IAM user if you have not already: https://cloud.google.com/iam/docs/creating-managing-service-accounts
-
-To properly set this up, you should copy this sheets file https://docs.google.com/spreadsheets/d/1RWMaz2ryNWEKpez4O7rEn8Ysy8_xvhRLkJUOKZKN3hM/edit?usp=sharing , add your IAM user as an editor, and finally add the unique file code into settings.json as the "input_file" field. 
-
-Next your need to copy this sheets file https://docs.google.com/spreadsheets/d/1Vq31R13NK41VGh8cxcdQbqVgtaChXSy9zgzSEsdrvxo/edit?usp=sharing, add your IAM user as an editor, and the unique ID as "output_file" in the settings.json file.
-
-Next your need to copy this sheets file https://docs.google.com/spreadsheets/d/14HkluJxeqEWhP14ZKEZifmuXP1DvDyD-L9x7MaQ0dYg/edit?usp=sharing, add your IAM user as an editor, and the unique ID as "thread_monitor" in the settings.json file.
-
-Finally, type in the command 'python atlas_pyqt5_interface.py'
-
-Select number of threads (suggestion is to start with 2-4 depending on computer speed), and click "start test"
-
-Code will automatically connect to Google docs and use your computer as as slave to run tests to the links entered in "settings.json"
+1. Install SUMO (newest)
+2. Install Python 3.7 (might work with newer but untested as of yet)
+3. Clone the repo
+4. CD into the repo
+5. 'pip install -r requirements.txt'
+6. Set up a Google IAM user if you have not already: https://cloud.google.com/iam/docs/creating-managing-service-accounts
+7. To properly set this up, you should copy this sheets file https://docs.google.com/spreadsheets/d/1RWMaz2ryNWEKpez4O7rEn8Ysy8_xvhRLkJUOKZKN3hM/edit?usp=sharing , add your IAM user as an editor, and finally add the unique file code into settings.json as the "input_file" field. 
+8. Next your need to copy this sheets file https://docs.google.com/spreadsheets/d/1Vq31R13NK41VGh8cxcdQbqVgtaChXSy9zgzSEsdrvxo/edit?usp=sharing, add your IAM user as an editor, and the unique ID as "output_file" in the settings.json file.
+9. Next your need to copy this sheets file https://docs.google.com/spreadsheets/d/14HkluJxeqEWhP14ZKEZifmuXP1DvDyD-L9x7MaQ0dYg/edit?usp=sharing, add your IAM user as an editor, and the unique ID as "thread_monitor" in the settings.json file.
+10. Finally, type in the command 'python atlas_pyqt5_interface.py'
+11. Select number of threads (suggestion is to start with 2-4 depending on computer speed), and click "start test"
+12. Code will automatically connect to Google docs and use your computer as as slave to run tests to the links entered in "settings.json"
